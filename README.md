@@ -1,5 +1,5 @@
 # 3x-ui installation with self-signed certs
-idk just need to save it somewhere cloudy
+
 
 
 Debian based linux (apt):
