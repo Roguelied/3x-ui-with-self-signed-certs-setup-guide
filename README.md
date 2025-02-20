@@ -1,4 +1,4 @@
-# x3-ui_installation_guide
+# 3x-ui installation with self-signed certs
 idk just need to save it somewhere cloudy
 
 
