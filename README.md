@@ -39,12 +39,12 @@ After that you probably need to change port, panel unique url, panel login and p
 
 Go for ``x-ui``, choose ``20. IP Limit Management``, then go ``1. Install Fail2ban and configure IP Limit``. That will setup fail2ban and ip limit for your web-panel and vpn connections.
 
-Also there is ``21. Firewall Management``. Choosing ``1. Install Firewall`` will install [ufw]() on your server, but do not forget to exclude your web-panel port from ufw block list, use ``3. Open Ports`` to add it.
+Also there is ``21. Firewall Management``. Choosing ``1. Install Firewall`` will install [ufw](https://en.wikipedia.org/wiki/Uncomplicated_Firewall#:~:text=Uncomplicated%20Firewall%20(UFW)%20is%20a,Ubuntu%20installations%20since%208.04%20LTS.) on your server, but do not forget to exclude your web-panel port from ufw block list, use ``3. Open Ports`` to add it.
 
 That is all for cli management for now. Check option 10 if you forgot something.
 
 
-For config creation go for **Inbounds** -> **Add Inbound**
+For config creation log in Web Panel and go for **Inbounds** -> **Add Inbound**
 ```
 Protocol: vless
 Port: 443 (https)
