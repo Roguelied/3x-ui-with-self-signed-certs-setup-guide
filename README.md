@@ -28,7 +28,10 @@ webBasePath: /bababababa/
 Access URL: https://xx.xx.xx.xx:22222/bababababa/
 ```
 
-Now it's time to setup your self-signed certs. You can use this [script](https://github.com/Roguelied/3x-ui-with-self-signed-certs-setup-guide/create-self-signed-certs.sh) - it will create keys for you in `/etc/ssl/self_signed_cert/` directory.
+Now it's time to setup your self-signed certs. You can use this [script](https://github.com/Roguelied/3x-ui-with-self-signed-certs-setup-guide/blob/main/create-self-signed-certs.sh) - it will create keys for you in `/etc/ssl/self_signed_cert/` directory.
+```
+bash <(curl -Ls https://raw.githubusercontent.com/Roguelied/3x-ui-with-self-signed-certs-setup-guide/refs/heads/main/create-self-signed-certs.sh)
+```
 
 When script is finish the work for certs, copy the filepaths and go to Web Panel.
 Navigate to **Panel Settings** on left menu. In **General** find 2 fields: **Public Key Path** and **Private Key Path** - fill them with paths script gives you. **Restart Panel** after changing this value. 
